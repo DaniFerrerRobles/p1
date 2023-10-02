@@ -27,6 +27,7 @@ article{
 
 body{
     font-size: 20px;/*Tamano de letra 20 del body */
+    font-family: 'Open Sans', sans-serif; /*Tipo de letra*/
 } 
 
 .buscador{
@@ -197,6 +198,10 @@ span{
 
 .textArtic{
     width: 70%; /*Anchura*/
+}
+
+p{
+    color: #7f888f; /*color gris*/
 }
 
 .textoEditorial{ /*Selector de clase que hace referencia al parrafo del texto*/
