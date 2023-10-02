@@ -1,0 +1,273 @@
+a{ /*Links*/
+    text-decoration: none; /*Eliminar subrayado*/
+    color: black; /*Links de color negro*/
+}
+
+#aIconos{
+    color: #7f888f; /*Color gris*/
+    font-family:"Roboto Slab", serif; /*Tipo de letra*/
+    font-size: 12px; /*Tamano de letra*/
+    width: 65%; /*Ancho*/
+}
+
+#aIconos:hover{
+    color: red; /*Al pasar por encima se cambiará el color al rojo*/
+}
+
+article{
+    width: 49%; /*Ancho*/
+    display: flex; /*Hace que los elementos del div sean flexibles*/
+}
+
+.articulos{
+    display: flex; /*Hace que los elementos del div sean flexibles*/
+    flex-wrap: wrap; /*El contenido baja cuando no haya más espacio*/
+    height: 500px; /*Altura*/
+}
+
+body{
+    font-size: 20px;/*Tamano de letra 20 del body */
+} 
+
+.buscador{
+    background-color: #eff1f2; /*Fondo blanco*/
+    padding: 5% 3%; /*Relleno*/
+}
+
+#cabecera{ /*Selector de ID*/
+    display: flex; /*Permite que los elementos del div sean en linea*/
+    border-bottom: solid 3px #f56a6a; /*El borde de abajo sólido de 3px de color rojo*/
+    margin-top:2%; /*Margen de arriba*/
+    width: 95%; /*Ancho*/
+}
+
+.contacto{
+    padding-top: 10%; /*Relleno de arriba*/
+    display: flex; /*Hace que los elementos del div sean flexibles*/
+    
+}
+
+.iconoIzq{
+    color: red; /*Color rojo*/
+}
+
+.infoTexto{
+    padding-left: 5%; /*Margen izq*/
+    font-size: 17px; /*Tamano de letra*/
+    color: grey; /*color gris*/
+}
+
+.infoTexto:hover{
+    color: red; /*Al pasar por encima cambiará el color a rojo*/
+}
+
+div h1{ /*Hace referencia al h1 que hay dentro del div*/
+    margin-right: 1200px; /*Margen derecho*/
+    width: 23%; /*Ancho*/
+}
+
+.divArticulo{
+    width:95%; /*Ancho*/
+    height: 10%; /*Altura*/
+}
+
+#divDos{
+    margin: 1%; /*Margen*/
+    width: 80%; /*Ancho*/
+
+}
+#divGeneral{
+    display: flex; /*Permite que los elementos del div sean en linea*/
+}
+
+.divNoticias{
+    width:95%; /*Ancho*/
+}
+
+.divText{ /*Selector de clase que hace referencia al texto*/
+    width: 45%; /*Ancho*/
+    margin-right: 10%; /*Margen derecho*/
+}
+
+#divUno{
+    width: 18%; /*Anchura de 18%*/
+}
+
+#editorial{
+    display: flex; /*Permite que los elementos del div sean en linea*/
+    width: 95%; /*Ancho*/
+}
+
+.elementLista{
+    font-size: 13px; /*Tamano de letra*/
+}
+
+.elementLista:hover{
+    color: red; /*Cuando pasemos por encima, el color del borde cambiará a rojo*/
+}
+
+#fotoBrazos{
+    width: 45%; /*Ancho*/
+}
+
+.fotoInterna{
+    margin-top: 4%; /*Margen de arriba*/
+    width: 100%; /*Ancho*/
+}
+
+#iconoMenu{
+    height: 3%; /*Altura de 3%*/
+    color: red; /*Color rojo del icono*/
+}
+
+#iconos{ /*Selector de ID que hace referencia a los iconos*/
+    display: flex; /*Esto permite a los iconos estar uno al lado del otro*/
+    justify-content: flex-end; /*Los elementos del div se colocan a la derecha*/
+    width: 35%; /*Anchura de 35%*/
+}
+
+.input {
+    padding-top: 4%; /*Relleno de arriba de 4%*/
+    padding-bottom: 4%; /*Relleno de abajo de 4%*/
+    width: 90%; /*Anchura de 90%*/
+    margin-left: 6%; /*Margen izquierdo de 6%*/
+}
+
+.imgIzq{
+    height: 150px; /*Altura*/
+    margin: 3%; /*Margen*/
+}
+
+.imgNoticia{
+    padding: 0% 12%; /*Relleno*/
+}
+
+.input:hover{
+      border-color: red; /*Cuando pasemos por encima, el color del borde cambiará a rojo*/
+}
+
+li{ /*Hace referencia a los elementos de lista, es selector de etiqueta*/
+    font-size: 0.9em; /*Tamano de letra*/
+    letter-spacing: 0.075em; /*Tamanoo del espaciado horizontal entre caracteres de texto*/
+    border-top: solid 1px /*Borde de arriba solido de 1px*/
+    rgba(210, 215, 217, 0.75); /*Color*/
+    list-style: none; /*Elimina los puntos de los elementos de la lista*/  
+    margin-top: 7%; /*Margen de arriba*/  
+    color: black; /*Color negro*/ 
+}
+
+#listM{
+    margin-top: 15%; /*Margen de arriba de 15%*/
+}
+
+.lm{/*Selector de clase del div lm*/
+    border:2px solid red; /*Borde rojo solido de 2px*/
+    margin-left: 3%; /*Margen izquierdo*/
+    margin-right: 70%; /*Margen derecho*/
+}
+
+#menu{ /*Selector de ID que hace referencia al menu*/
+    background-color:#f5f6f7; /*Color de fondo*/
+    padding-top: 17%; /*Relleno de arriba*/
+}
+
+.noticia{
+    width: 49%; /*Ancho*/
+    height: 500px; /*Altura*/
+}
+
+#noticias{
+    display: flex; /*Hace que los elementos del div sean flexibles*/
+    flex-wrap: wrap; /*El contenido baja cuando no haya más espacio*/
+    height: 800px; /*Altura*/
+}
+
+.parrafoImgIzq{
+    font-size: 15px; /*Tamano de letra*/
+    color: gray; /*color gris*/
+}
+
+span{
+    color: red; /*Color del icono rojo*/
+    width: 30%; /*Anchura*/
+    padding: 15% 0%; /*Relleno arriba y abajo de 15% y 0%*/
+    text-align: center; /*Centra los iconos*/
+    font-size: 250%; /*Tamano del icono*/
+}
+
+.textArtic{
+    width: 70%; /*Anchura*/
+}
+
+.textoEditorial{ /*Selector de clase que hace referencia al parrafo del texto*/
+    color: #7f888f; /*Color gris*/
+}
+
+.textoEnlace{ /*Selector de clase que hace referencia al enlace de learn more*/
+    color: #f56a6a; /*Color rojo*/
+    font-size: 12px; /*Tamano de letra de 12px*/
+    margin-left: 3%; /*Margen izquierdo*/
+    padding: 3%; /*Relleno*/
+    border: 2px solid red; /*Borde rojo*/
+}
+
+.textoEnlaceNoticias{
+    color: #f56a6a; /*Color rojo*/
+    font-size: 12px; /*Tamano de letra de 12px*/
+    margin-left: 12%; /*Margen izquierdo*/
+    padding: 3%; /*Relleno*/
+    border: 2px solid red; /*Borde rojo*/
+}
+
+.textoEnlaceNoticiasIzq{
+    color: #f56a6a; /*Color rojo*/
+    font-size: 12px; /*Tamano de letra de 12px*/
+    margin-left: 3%; /*Margen izquierdo*/
+    padding: 3%; /*Relleno*/
+    border: 2px solid red; /*Borde rojo*/
+}
+
+.textoNoticia{
+    padding: 0% 12%; /*Relleno de 0% abajo y arriba y 12% izq y derecha*/
+}
+
+.titArticulo{
+    display: inline-flex; /*Elementos flexibles en linea*/
+    color: #3d4449; /*h2 de color negro*/
+    font-family: "Roboto Slab", serif; /*Tipo de letra*/
+    font-weight: 700; /*La intensidad del color del texto*/
+    line-height: 1.5; /*Tamano de la altura de la linea*/
+    font-size: 1.38889em; /*Tamano de letra*/
+    border-bottom: solid 3px #f56a6a; /*El borde de abajo solido de 3px de color rojo*/
+    margin-left: 2%; /*Margen izquierdo de 5%*/
+    margin-right: 50%; /*Margen derecho de 50%*/
+}
+
+#titEdit{
+    width: 60%; /*Ancho*/
+}
+
+.titImgIzq{
+    display: inline-flex; /*Elementos flexibles en linea*/
+    color: #3d4449; /*h2 de color negro*/
+    font-family: "Roboto Slab", serif; /*Tipo de letra*/
+    font-weight: 700; /*La intensidad del color del texto*/
+    line-height: 1.5; /*Tamano de la altura de la linea*/
+    font-size: 20px; /*Tamano de letra*/
+    border-bottom: solid 3px #f56a6a; /*El borde de abajo solido de 3px de color rojo*/
+    margin-left: 10%; /*Margen izquierdo de 5%*/   
+}
+
+.titext{ /*Selector de clase que hace referencia al subtitulo del parrafo*/
+    color: #7f888f; /*Color gris*/
+}
+
+#titMenu{ /*Hace referencia al h2 que hay dentro del div*/
+    color: #3d4449; /*h2 de color negro*/
+    font-family: "Roboto Slab", serif; /*Tipo de letra*/
+    font-weight: 700; /*La intensidad del color del texto*/
+    line-height: 1.5; /*Tamano de la altura de la linea*/
+    font-size: 1.38889em; /*Tamano de letra*/
+    border-bottom: solid 3px #f56a6a; /*El borde de abajo solido de 3px de color rojo*/
+    margin-right: 60%; /*Margen derecho de 60%*/
+}
