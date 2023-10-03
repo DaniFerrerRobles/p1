@@ -186,7 +186,7 @@ li{ /*Hace referencia a los elementos de lista, es selector de etiqueta*/
 .parrafoImgIzq{
     font-size: 13px; /*Tamano de letra*/
     color: gray; /*color gris*/
-    margin: 0px 0px 26px;
+    margin: 0px 0px 26px; /*Margen*/
 }
 
 span{
@@ -207,8 +207,8 @@ p{
 }
 
 .textoEditorial{ /*Selector de clase que hace referencia al parrafo del texto*/
-    font-size: 14px;
-    margin: 0px 0px 29px;
+    font-size: 14px; /*Tamano de letra*/
+    margin: 0px 0px 29px; /*Margen*/
 }
 
 .textoEnlace{ /*Selector de clase que hace referencia al enlace de learn more*/
@@ -224,10 +224,10 @@ p{
     font-size: 11px; /*Tamano de letra de 12px*/
     margin-left: 12%; /*Margen izquierdo*/
     border: 2px solid red; /*Borde rojo*/
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-left: 3%; /*Relleno izq*/
+    padding-right: 3%; /*Relleno derecha*/
+    padding-top: 2%; /*Relleno arriba*/
+    padding-bottom: 2%; /*Relleno abajo*/
 }
 
 .textoEnlaceNoticiasIzq{
@@ -240,7 +240,7 @@ p{
 
 .textoNoticia{
     padding: 0% 12%; /*Relleno de 0% abajo y arriba y 12% izq y derecha*/
-    font-size: 14px;
+    font-size: 14px; /*Tamano de letra*/
 }
 
 .titArticulo{
@@ -251,13 +251,13 @@ p{
     line-height: 1.5; /*Tamano de la altura de la linea*/
     font-size: 1.38889em; /*Tamano de letra*/
     border-bottom: solid 3px #f56a6a; /*El borde de abajo solido de 3px de color rojo*/
-    margin-left: 2%; /*Margen izquierdo de 5%*/
+    margin-left: 2%; /*Margen izquierdo de 2%*/
     margin-right: 50%; /*Margen derecho de 50%*/
 }
 
 #titEdit{
     width: 60%; /*Ancho*/
-    color: #3d4449;
+    color: #3d4449; /*color*/
 }
 
 .titImgIzq{
@@ -268,7 +268,7 @@ p{
     line-height: 1.5; /*Tamano de la altura de la linea*/
     font-size: 20px; /*Tamano de letra*/
     border-bottom: solid 3px #f56a6a; /*El borde de abajo solido de 3px de color rojo*/
-    margin-left: 10%; /*Margen izquierdo de 5%*/   
+    margin-left: 10%; /*Margen izquierdo de 10%*/   
 }
 
 .titext{ /*Selector de clase que hace referencia al subtitulo del parrafo*/
@@ -287,6 +287,6 @@ p{
 }
 
 .titNoticia{
-    color: #3d4449;
-    font-size: 18px;
+    color: #3d4449; /*color*/
+    font-size: 18px; /*Tamano de letra*/
 }
