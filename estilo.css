@@ -48,6 +48,10 @@ body{
     
 }
 
+h3{
+    font-size: 18px;
+}
+
 .iconoIzq{
     color: red; /*Color rojo*/
 }
@@ -197,16 +201,15 @@ span{
 }
 
 .textArtic{
-    width: 70%; /*Anchura*/
-    font-size: 14px; /*Tamano de letra*/
+    width: 54%; /*Anchura*/
 }
 
 p{
     color: #7f888f; /*color gris*/
+    font-size: 14px; /*Tamano de letra*/
 }
 
 .textoEditorial{ /*Selector de clase que hace referencia al parrafo del texto*/
-    font-size: 14px; /*Tamano de letra*/
     margin: 0px 0px 29px; /*Margen*/
 }
 
@@ -223,10 +226,7 @@ p{
     font-size: 11px; /*Tamano de letra de 12px*/
     margin-left: 12%; /*Margen izquierdo*/
     border: 2px solid red; /*Borde rojo*/
-    padding-left: 3%; /*Relleno izq*/
-    padding-right: 3%; /*Relleno derecha*/
-    padding-top: 2%; /*Relleno arriba*/
-    padding-bottom: 2%; /*Relleno abajo*/
+    padding: 2%; /*Relleno*/
 }
 
 .textoEnlaceNoticiasIzq{
@@ -239,7 +239,6 @@ p{
 
 .textoNoticia{
     padding: 0% 12%; /*Relleno de 0% abajo y arriba y 12% izq y derecha*/
-    font-size: 14px; /*Tamano de letra*/
 }
 
 .titArticulo{
@@ -248,7 +247,7 @@ p{
     font-family: "Roboto Slab", serif; /*Tipo de letra*/
     font-weight: 700; /*La intensidad del color del texto*/
     line-height: 1.5; /*Tamano de la altura de la linea*/
-    font-size: 1.38889em; /*Tamano de letra*/
+    font-size: 25px; /*Tamano de letra*/
     border-bottom: solid 3px #f56a6a; /*El borde de abajo solido de 3px de color rojo*/
     margin-left: 2%; /*Margen izquierdo de 2%*/
     margin-right: 50%; /*Margen derecho de 50%*/
@@ -272,7 +271,6 @@ p{
 
 .titext{ /*Selector de clase que hace referencia al subtitulo del parrafo*/
     color: #7f888f; /*Color gris*/
-    font-size: 14px; /*Tamano de letra*/
 }
 
 #titMenu{ /*Hace referencia al h2 que hay dentro del div*/
