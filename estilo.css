@@ -63,7 +63,6 @@ body{
 }
 
 div h1{ /*Hace referencia al h1 que hay dentro del div*/
-    margin-right: 1200px; /*Margen derecho*/
     width: 23%; /*Ancho*/
 }
 
