@@ -184,8 +184,9 @@ li{ /*Hace referencia a los elementos de lista, es selector de etiqueta*/
 }
 
 .parrafoImgIzq{
-    font-size: 15px; /*Tamano de letra*/
+    font-size: 13px; /*Tamano de letra*/
     color: gray; /*color gris*/
+    margin: 0px 0px 26px;
 }
 
 span{
@@ -198,6 +199,7 @@ span{
 
 .textArtic{
     width: 70%; /*Anchura*/
+    font-size: 14px; /*Tamano de letra*/
 }
 
 p{
@@ -205,7 +207,8 @@ p{
 }
 
 .textoEditorial{ /*Selector de clase que hace referencia al parrafo del texto*/
-    color: #7f888f; /*Color gris*/
+    font-size: 14px;
+    margin: 0px 0px 29px;
 }
 
 .textoEnlace{ /*Selector de clase que hace referencia al enlace de learn more*/
@@ -218,10 +221,13 @@ p{
 
 .textoEnlaceNoticias{
     color: #f56a6a; /*Color rojo*/
-    font-size: 12px; /*Tamano de letra de 12px*/
+    font-size: 11px; /*Tamano de letra de 12px*/
     margin-left: 12%; /*Margen izquierdo*/
-    padding: 3%; /*Relleno*/
     border: 2px solid red; /*Borde rojo*/
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .textoEnlaceNoticiasIzq{
@@ -234,6 +240,7 @@ p{
 
 .textoNoticia{
     padding: 0% 12%; /*Relleno de 0% abajo y arriba y 12% izq y derecha*/
+    font-size: 14px;
 }
 
 .titArticulo{
@@ -250,6 +257,7 @@ p{
 
 #titEdit{
     width: 60%; /*Ancho*/
+    color: #3d4449;
 }
 
 .titImgIzq{
@@ -265,6 +273,7 @@ p{
 
 .titext{ /*Selector de clase que hace referencia al subtitulo del parrafo*/
     color: #7f888f; /*Color gris*/
+    font-size: 14px; /*Tamano de letra*/
 }
 
 #titMenu{ /*Hace referencia al h2 que hay dentro del div*/
@@ -275,4 +284,9 @@ p{
     font-size: 1.38889em; /*Tamano de letra*/
     border-bottom: solid 3px #f56a6a; /*El borde de abajo solido de 3px de color rojo*/
     margin-right: 60%; /*Margen derecho de 60%*/
+}
+
+.titNoticia{
+    color: #3d4449;
+    font-size: 18px;
 }
