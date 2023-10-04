@@ -178,12 +178,14 @@ li{ /*Hace referencia a los elementos de lista, es selector de etiqueta*/
 .noticia{
     width: 49%; /*Ancho*/
     height: 500px; /*Altura*/
+    border: 4px solid blue;
 }
 
 #noticias{
     display: flex; /*Hace que los elementos del div sean flexibles*/
     flex-wrap: wrap; /*El contenido baja cuando no haya más espacio*/
     height: 800px; /*Altura*/
+    border: 4px solid red;
 }
 
 .parrafoImgIzq{
@@ -239,6 +241,8 @@ p{
 
 .textoNoticia{
     padding: 0% 12%; /*Relleno de 0% abajo y arriba y 12% izq y derecha*/
+    border: 3px solid greenyellow;
+    margin-right: 10%;
 }
 
 .titArticulo{
