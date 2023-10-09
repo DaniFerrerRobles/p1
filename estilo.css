@@ -50,6 +50,7 @@ body{
 
 h3{
     font-size: 18px; /*Tamano de letra*/
+    font-family: 'Roboto slab', serif;
 }
 
 .iconoIzq{
@@ -218,6 +219,7 @@ p{
     margin-left: 3%; /*Margen izquierdo*/
     padding: 3%; /*Relleno*/
     border: 2px solid red; /*Borde rojo*/
+    font-family: 'Roboto slab', serif; /*Fuente de letra*/
 }
 
 .textoEnlaceNoticias{
@@ -226,6 +228,7 @@ p{
     margin-left: 12%; /*Margen izquierdo*/
     border: 2px solid red; /*Borde rojo*/
     padding: 2%; /*Relleno*/
+    font-family: 'Roboto slab', serif; /*Fuente de letra*/
 }
 
 .textoEnlaceNoticiasIzq{
@@ -256,6 +259,7 @@ p{
 #titEdit{
     width: 60%; /*Ancho*/
     color: #3d4449; /*color*/
+    font-family: 'Roboto slab', serif;
 }
 
 .titImgIzq{
@@ -271,6 +275,7 @@ p{
 
 .titext{ /*Selector de clase que hace referencia al subtitulo del parrafo*/
     color: #7f888f; /*Color gris*/
+    font-family: 'Roboto slab', serif; /*Fuente letra*/
 }
 
 #titMenu{ /*Hace referencia al h2 que hay dentro del div*/
