@@ -78,15 +78,14 @@ div h1{ /*Hace referencia al h1 que hay dentro del div*/
 
 #divDos{
     margin: 1%; /*Margen*/
-    width: 80%; /*Ancho*/
-
+    width: 90%; /*Ancho*/
 }
 #divGeneral{
     display: flex; /*Permite que los elementos del div sean en linea*/
 }
 
 .divNoticias{
-    width:95%; /*Ancho*/
+    width:125%; /*Ancho*/
 }
 
 .divText{ /*Selector de clase que hace referencia al texto*/
@@ -144,7 +143,8 @@ div h1{ /*Hace referencia al h1 que hay dentro del div*/
 }
 
 .imgNoticia{
-    padding: 0% 12%; /*Relleno*/}
+    padding: 0% 12%; /*Relleno*/
+}
 
 .input:hover{
       border-color: red; /*Cuando pasemos por encima, el color del borde cambiará a rojo*/
@@ -176,7 +176,7 @@ li{ /*Hace referencia a los elementos de lista, es selector de etiqueta*/
 }
 
 .noticia{
-    width: 49%; /*Ancho*/
+    width: 30%; /*Ancho*/
     height: 500px; /*Altura*/
 }
 
@@ -241,7 +241,8 @@ p{
 
 .textoNoticia{
     padding: 0% 12%; /*Relleno de 0% abajo y arriba y 12% izq y derecha*/
-    margin-right: 10%; /*Margen derecho de 10%*/
+    margin-right: 13%; /*Margen derecho de 10%*/
+    width: 84%; /*Ancho*/
 }
 
 .titArticulo{
